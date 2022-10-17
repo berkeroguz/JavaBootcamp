@@ -3,17 +3,7 @@ package ders_disi;
 import java.util.Scanner;
 
 public class ders16_SifreKontroluDeneme {
-     /*
-        Soru 2- Kullanicidan bir sifre girmesini isteyin.
-        Girilen sifreyi asagidaki sartlara gore kontrol edin ve sifredeki hatalari yazdirin.
-        Kullanici gecerli bir sifre girinceye kadar bu islemi tekrar edin
-        ve gecerli sifre girdiginde “Sifreniz Kabul edilmistir” yazdirin.
-        - Sifre kucuk harf icermelidir ŞART 1
-        - Sifre buyuk harf icermelidir ŞART 2
-        - Sifre ozel karakter icermelidir ŞART 3
-        - Sifre en az 8 karakter olmalidir. ŞART 4
-           SADECEa54
-         */
+
 
 
 
