@@ -2,7 +2,7 @@ package GrupCalismalari;
 
 import java.util.Scanner;
 
-public class DAY1_SifreKontrolu {
+public class Day1_SifreKontrolu {
     /*
         Soru 2- Kullanicidan bir sifre girmesini isteyin.
         Girilen sifreyi asagidaki sartlara gore kontrol edin ve sifredeki hatalari yazdirin.
