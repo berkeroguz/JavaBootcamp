@@ -1,5 +1,4 @@
 package GrupCalismalari;
-
 import java.util.Arrays;
 
 public class Day3_Calisma3 {

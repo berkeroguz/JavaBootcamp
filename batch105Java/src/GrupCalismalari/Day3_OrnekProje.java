@@ -48,20 +48,15 @@ public class Day3_OrnekProje {
     static List<String> ogrenciler = new ArrayList<String>();
     public static List<String> OgrenciEkle() {
     //Çalışan kod en iyi koddur.
-        String ogrenci;
+        String ogrenci="";
 
         Scanner scan = new Scanner(System.in);
         do {
+            if(!(ogrenci.isEmpty())) {ogrenciler.add(ogrenci);}
             System.out.println("Lütfen bir öğrenci giriniz. Bitirmek istiyosanız 0'a basın.");
             ogrenci = scan.nextLine();
-            if (ogrenci.equals(0))
-            {
-                break;
-            }
-            else ogrenciler.add(ogrenci);
         }
-        while (!(Objects.equals(ogrenci, "0")));
-        ogrenciler.remove(ogrenciler.size()-1);
+        while (!ogrenci.startsWith("0"));
         return ogrenciler;
     }
     public static void OgrenciCagir(){
