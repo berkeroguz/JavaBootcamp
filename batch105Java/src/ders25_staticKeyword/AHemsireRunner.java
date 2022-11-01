@@ -1,5 +1,7 @@
 package ders25_staticKeyword;
 
+import Ev.TemizlikRobotu;
+
 public class AHemsireRunner {
     public static void main(String[] args) {
 
@@ -7,6 +9,7 @@ public class AHemsireRunner {
         h1.personelIsim="Ayse";
         h1.personelAdresi="Ulus";
         h1.personelTelefon="3123425465";
+        h1.bashekimIsmi="Ahmet";
         System.out.println(h1);
 
         AHemsire h2= new AHemsire();
@@ -15,6 +18,7 @@ public class AHemsireRunner {
         h2.personelAdresi="Sincan";
         h2.personelTelefon="3124323232";
         h2.bashekimIsmi="Yasar Kemal";
+        System.out.println(h1.bashekimIsmi);
 
         System.out.println("h1 : " + h1);
         System.out.println("h2 : " + h2);

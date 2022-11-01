@@ -19,7 +19,7 @@ public class HAraba {
         model=mdl;
         yil=yl;
     }
-    public HAraba(){
+     HAraba(){
         // gorunur durumdaki parametresiz constructor
         // default constructor DEGILDIR
         // Default constructor'in body'si de bos olur

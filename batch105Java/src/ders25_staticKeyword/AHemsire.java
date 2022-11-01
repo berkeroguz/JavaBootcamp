@@ -1,6 +1,7 @@
 package ders25_staticKeyword;
 
 public class AHemsire {
+    //Yıldız hastanesinin bir otomasyon programını yapıyoruz gibi düşünebiliriz.
     static String hastaneIsmi = "Yildiz Hastanesi";
     static String hastaneAdresi = "Cankaya / Ankara";
     static String bashekimIsmi = "Dr Mehmet Yilmaz";

@@ -20,5 +20,8 @@ public class TemizlikRobotu {
     public static void MasajYap(){
         System.out.println("Masaj yapıldı.");
     }
+    public static void denemeYap(){
+        System.out.println("Deneme Yapıldı.");
+    }
 
 }
