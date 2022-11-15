@@ -19,6 +19,8 @@ public class C03_replaceAll {
 
         //iki ürünün fiyatını toplayın.
 
+        System.out.println(s2.replaceAll("\\D",""));
+
 
 
     }

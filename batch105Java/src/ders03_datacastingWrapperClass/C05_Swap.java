@@ -7,10 +7,8 @@ public class C05_Swap {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Lütfen a sayısını giriniz.");
         int a=scan.nextInt();
-
         System.out.println("Lütfen b sayısını giriniz.");
         int b= scan.nextInt();
 

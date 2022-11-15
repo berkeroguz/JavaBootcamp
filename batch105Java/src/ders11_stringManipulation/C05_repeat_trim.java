@@ -12,8 +12,8 @@ public class C05_repeat_trim {
 
         str=str.trim(); // Başındaki, ve sonundaki boşlukları siler.
 
-        System.out.println(str);
-        System.out.println(str.length());
+        System.out.println(str); // Java güzeldir
+        System.out.println(str.length()); //13
 
     }
 }
