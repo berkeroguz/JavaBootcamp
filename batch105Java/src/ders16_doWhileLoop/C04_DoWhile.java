@@ -22,3 +22,9 @@ public class C04_DoWhile {
         }
     }
 }
+/*
+do {
+    KODLARIN ÇALIŞACAĞI BÖLÜM
+        }
+while(ŞARTIMIZ)       ŞART TRUE DEĞERİNİ ALDIĞI SÜRECE DO BLOĞU ÇALIŞIR. DİĞER DÖNGÜLERDEN FARKI, ŞART SAĞLANMASA BİLE DO BLOĞU 1 KEZ ÇALIŞIR.
+*/

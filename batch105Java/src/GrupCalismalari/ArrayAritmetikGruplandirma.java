@@ -10,7 +10,7 @@ public class ArrayAritmetikGruplandirma {
         AritmetikSirala(dizi1);
     }
     public static void AritmetikSirala(String[] dizi1){
-        String[] dizi = new String[4];
+        String[] dizi =null;
         String yeniIndex = "";
         int indexNo=0;
         int sayac=0;
