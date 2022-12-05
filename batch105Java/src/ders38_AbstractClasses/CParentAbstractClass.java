@@ -8,7 +8,10 @@ public abstract class CParentAbstractClass {
 
      */
 
-    public abstract void mecburiMethod1();
+    public void mecburiMethod1()
+    {
+
+    }
 
     public abstract void mecburiMethod2();
     // soyut(abstract) method'larin body'si olmaz

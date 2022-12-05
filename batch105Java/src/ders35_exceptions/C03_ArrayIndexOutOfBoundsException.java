@@ -22,7 +22,7 @@ public class C03_ArrayIndexOutOfBoundsException {
         } catch (ArrayIndexOutOfBoundsException hata) {
 
             // System.out.println(hata.getMessage()); // Index 56 out of bounds for length 12
-            // hata.printStackTrace();
+            //hata.printStackTrace();
             // java.lang.ArrayIndexOutOfBoundsException: Index 44 out of bounds for length 12
             //	at ders35_exceptions.C03_ArrayIndexOutOfBoundsException.main(C03_ArrayIndexOutOfBoundsException.java:21)
             // java'nin yazdigi tum hata mesajini verir ama kodlar calismaya devam eder

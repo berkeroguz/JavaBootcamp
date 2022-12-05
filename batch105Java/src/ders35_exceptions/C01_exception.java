@@ -19,7 +19,6 @@ public class C01_exception {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen bir tamsayi giriniz");
-
         try {
             int girilenSayi = scan.nextInt();
             /*
@@ -32,12 +31,14 @@ public class C01_exception {
              */
             System.out.print("Girdiginiz sayinin karesi : ");
             System.out.println(girilenSayi*girilenSayi);
-        } catch (InputMismatchException e) {
+        }
+        catch (InputMismatchException e) {
 
             System.out.println("Sana tam sayi degeri gir dedik :) ");
             sayiAlKaresiniyazdir();
 
         }
+
 
     }
 }
